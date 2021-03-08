@@ -1,0 +1,35 @@
+.device_list{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+
+.device_list_grid{
+    display: grid;
+    grid-template-columns:repeat(7,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+
+.device1{
+    padding:15px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.impact{
+    display: flex;
+    justify-content: space-around;
+    font-weight:bold;
+
+}
+.risk{
+    color:rgb(234, 182, 118);
+    font-weight:bold;
+
+}
+.breach{
+    color: rgb(135, 62, 35);
+    font-weight:bold;
+}

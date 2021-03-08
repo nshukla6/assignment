@@ -1,0 +1,19 @@
+.roles_tags{
+    display:flex;
+}
+
+.roles_tags_col{
+    color:#fff;
+    padding:10px;
+    border-radius: 5px;
+    margin-right: 2px;;
+}
+.crm,.print{
+    background-color:lightgray;
+}
+.nfs{
+    background-color: rgb(238, 219, 11);
+}
+.ssh{
+    background-color: rgb(241, 100, 100);
+}

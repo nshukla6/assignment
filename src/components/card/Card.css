@@ -1,0 +1,20 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffff;
+    width:10rem;
+    height:6rem;
+    justify-content:space-between;
+    padding:10px;
+    
+}
+
+.card_header,.card_footer{
+    font-size:.9rem;
+    font-weight:200
+}
+.card_body{
+    font-size:2rem;
+    font-weight:300
+}

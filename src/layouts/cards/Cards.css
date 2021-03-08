@@ -1,0 +1,7 @@
+.dashboard_card{
+    display:flex;
+    flex-wrap: nowrap;
+    margin-bottom:10px;
+    justify-content:space-between;
+}
+

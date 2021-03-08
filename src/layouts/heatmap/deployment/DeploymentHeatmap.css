@@ -1,0 +1,37 @@
+.heatmap_deployment{
+    background-color: #fff;
+    font-weight:700;
+    font-size:1.2rem;
+    padding:10px;
+    margin:20px 20px 0 0;
+}
+
+.heatmap_deployment_grid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 2px;
+    padding: 10px;
+}
+.heatmap_deployment_body{
+    position: relative;
+}
+
+.center_risk{
+    font-size: 1rem;
+    font-weight:400;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    background-color:lightgray;
+    display:flex;
+    height:70px;
+    width:70px;
+    border-radius: 100%;
+    text-align:center;
+    border:2px solid white;
+    justify-content:center;
+    align-items:center;
+}

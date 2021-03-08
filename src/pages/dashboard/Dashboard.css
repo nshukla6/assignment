@@ -1,0 +1,11 @@
+.dashboard-page{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    margin:20px;
+}
+.dashboard_layer2{
+    display:flex;
+    justify-content:space-between;
+    
+}

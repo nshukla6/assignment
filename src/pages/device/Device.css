@@ -1,0 +1,9 @@
+.device_page{
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+}
+
+.device_bar{
+    width:50%;
+}

@@ -1,0 +1,30 @@
+.risk_insight_card{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    justify-content:space-evenly;
+    border-bottom: 1px solid lightgray;
+}
+
+.risk_insight_card_body{
+    display:flex;
+    justify-content:flex-start;
+    padding-bottom: 10px;
+}
+.risk_insight_card_footer{
+    display:flex;
+    justify-content:space-between;
+
+}
+.symbol{
+    padding-right: 10px;
+}
+.assets{
+    font-size:.9rem;
+    color:red;
+    padding-left:33px;
+}
+.risk_text{
+    font-size:.9rem;
+    font-weight: 300;
+}

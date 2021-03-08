@@ -1,0 +1,10 @@
+
+.risk_insights{
+    background-color: #fff;
+    border-top: 1px solid lightgray;
+}
+.risk_insights_heading{
+    font-size: .9rem;
+    font-weight: bold;
+    padding: 20px;
+}
