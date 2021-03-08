@@ -23,7 +23,7 @@ const DeviceList = () => {
             <PageHeader title="Device List" placeholder="Desktops" />
             <div className="device_list_grid">
                 {
-                    headers.map(header => <div key={header} className="col device">{header}</div>)
+                    headers.map(header => <div key={header} className="col device1">{header}</div>)
                 }
                 {
                     devices.map(device => (
