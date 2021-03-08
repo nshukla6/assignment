@@ -5,7 +5,7 @@ import "./App.css";
 import RiskInsights from "./layouts/risk-insights/RiskInsights";
 import { Route, Switch } from "react-router-dom"
 import Device from "./pages/device/Device";
-import { withRouter } from "react-router-dom";
+import { withRouter, Redirect } from "react-router-dom";
 
 
 
@@ -21,6 +21,7 @@ function App({location}) {
           <Route exact path="/device" component={Device} />
           <Route exact path="/graph" component={Risk} />
           <Route exact path="/dashboard" component={Dashboard} />
+          <Redirect to='/dashboard'/>
       </Switch>
       {location.pathname !== "/graph" && <RiskInsights />}
       
